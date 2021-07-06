@@ -1,4 +1,4 @@
-package com.mavis.games.models
+package com.bishopwealth.games.models
 
 data class Animal(
     val picture: Int,

@@ -1,14 +1,10 @@
-package com.mavis.games.adapter
+package com.bishopwealth.games.adapter
 
-import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.mavis.games.MainActivity
-import com.mavis.games.databinding.ActivityMainBinding
-import com.mavis.games.databinding.AnimalBinding
-import com.mavis.games.models.Animal
-import com.mavis.games.models.PropertyActivity
+import com.bishopwealth.games.models.Animal
+import com.mavis.bishopwealthgames.databinding.AnimalBinding
 
 class AnimalAdapter(val animals: List<Animal>, var clickListner: OnItemClickListner): RecyclerView.Adapter<AnimalAdapter.AnimalViewHolder>() {
     class AnimalViewHolder(var binding: AnimalBinding): RecyclerView.ViewHolder(binding.root){

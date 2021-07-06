@@ -1,4 +1,4 @@
-package com.mavis.games
+package com.bishopwealth.games
 
 import org.junit.Test
 

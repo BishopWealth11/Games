@@ -1,17 +1,19 @@
-package com.mavis.games
+package com.bishopwealth.games
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
-import android.widget.ImageView
-import android.widget.Toast
-import com.mavis.games.databinding.ActivityMainBinding
-import com.mavis.games.models.Animal
-import com.mavis.games.adapter.AnimalAdapter
-import com.mavis.games.adapter.OnItemClickListner
-import com.mavis.games.models.PropertyActivity
-import org.w3c.dom.Text
+import com.bishopwealth.games.databinding.ActivityMainBinding
+import com.bishopwealth.games.models.Animal
+import com.bishopwealth.games.adapter.AnimalAdapter
+import com.bishopwealth.games.adapter.OnItemClickListner
+import com.bishopwealth.games.models.PropertyActivity
+import com.bishopwealth.games.databinding.ActivityMainBinding
+import com.bishopwealth.games.databinding.ActivityMainBinding
+import com.bishopwealth.games.databinding.ActivityMainBinding
+import com.bishopwealth.games.databinding.ActivityMainBinding
+import com.bishopwealth.games.databinding.ActivityMainBinding
+import com.bishopwealth.games.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity(), OnItemClickListner {
     private lateinit var binding: ActivityMainBinding

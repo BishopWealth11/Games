@@ -1,10 +1,9 @@
-package com.mavis.games.models
+package com.bishopwealth.games.models
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.mavis.games.R
-import com.mavis.games.databinding.ActivityPropertyBinding
-import com.mavis.games.databinding.AnimalBinding
+import com.bishopwealth.games.databinding.ActivityPropertyBinding
+import com.bishopwealth.games.databinding.ActivityPropertyBinding
 
 class PropertyActivity : AppCompatActivity() {
 
